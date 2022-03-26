@@ -82,6 +82,13 @@ WHERE year < 1985
    AND genre = 'horror';
 
 -------------------------------------------------
+SELECT *
+FROM movies
+WHERE genre = 'romance'
+  OR genre = 'comedy';
+
+-------------------------------------------------
+
 
 
 
