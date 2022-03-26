@@ -65,5 +65,11 @@ FROM movies
 WHERE name LIKE 'The %';
 
 -------------------------------------------------
+SELECT name
+FROM movies
+WHERE imdb_rating IS NULL
+
+-------------------------------------------------
+
 
 
