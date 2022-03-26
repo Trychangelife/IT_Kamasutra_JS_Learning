@@ -54,4 +54,9 @@ FROM movies
 WHERE year > 2014;
 
 --------------------------------------------
+SELECT *
+FROM movies
+WHERE name LIKE 'se_en';
+
+-------------------------------------------
 
