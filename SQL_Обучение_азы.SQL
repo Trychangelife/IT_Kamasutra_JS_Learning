@@ -122,6 +122,11 @@ FROM fake_apps;
 SELECT MAX(price)
 FROM fake_apps;
 -------------------------------------------------------
+SELECT AVG(price)
+FROM fake_apps;
+
+------------------
+
 
 
 
