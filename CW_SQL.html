@@ -39,3 +39,10 @@ WHERE tuition_received = False;
 INSERT INTO participants (name, age, attending) VALUES ('Евгений', 25, True);
 SELECT * FROM participants;
 ----------------------------------------------
+
+SELECT capital FROM countries
+WHERE continent LIKE 'Afri_a' and country LIKE 'E%'
+ORDER BY capital ASC
+LIMIT 3;
+
+----------------------------------------------
