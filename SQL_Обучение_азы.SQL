@@ -119,6 +119,9 @@ WHERE price = 0.0;
 SELECT SUM(downloads)
 FROM fake_apps;
 -------------------------------------------------------
+SELECT MAX(price)
+FROM fake_apps;
+-------------------------------------------------------
 
 
 
