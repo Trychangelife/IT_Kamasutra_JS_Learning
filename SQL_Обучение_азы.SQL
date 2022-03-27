@@ -196,5 +196,6 @@ LEFT JOIN online
 WHERE online.id IS NULL;
 
 --------------------------------------------------------------
+SELECT mod (number1, number2) FROM decimals
 
-
+--------------------------------------------------------------
