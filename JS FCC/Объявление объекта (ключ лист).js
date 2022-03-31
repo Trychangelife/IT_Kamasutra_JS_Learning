@@ -19,3 +19,37 @@ const testObj = {
   // Only change code below this line
   const hatValue = testObj.hat;      // Change this line
   const shirtValue = testObj.shirt;    // Change this line
+
+  // Второй способ обращения через скобки
+const testObj = {
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
+  };
+  
+  // Only change code below this line
+  const entreeValue = testObj['an entree'];   // Change this line
+  const drinkValue = testObj['the drink'];    // Change this line
+
+
+  // Хуй проссышь зачем через скобки вызывать это
+const testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+  };
+  
+  // Only change code below this line
+  const playerNumber = 16;  // Change this line
+  const player = testObj[playerNumber];   // Change this line
+
+  // Изменяем составляющую ключ-листа при помощи обращения через точку.
+const myDog = {
+    "name": "Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+  };
+  
+  // Only change code below this line
+  myDog.name = "Happy coder";
