@@ -4,3 +4,11 @@ function digitize(n) {
     let y = x.reverse();
     return (y.map(string => +string));
   }
+
+
+
+  /* Лучшее решение в CW
+
+  function digitize(n) {
+    return String(n).split('').reverse().map(Number)
+  }
