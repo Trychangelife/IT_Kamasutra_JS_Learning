@@ -1,7 +1,10 @@
-let buttonPlus = document.getElementById('buttonPlus');
-let buttonMunus = document.getElementById('buttonMinus');
-let buttonMultiply = document.getElementById('buttonMultiply');
-let buttonDevide = document.getElementById('buttonDevide');
+//let buttonPlus = document.getElementById('buttonPlus');
+//let buttonMunus = document.getElementById('buttonMinus');
+//let buttonMultiply = document.getElementById('buttonMultiply');
+//let buttonDevide = document.getElementById('buttonDevide');
+//var operationButtons = [buttonPlus, buttonMunus, buttonMultiply, buttonDevide];
+
+var operationButtons = document.getElementsByClassName('operation-button');
 
 let input1 = document.getElementById("number1");
 let input2 = document.getElementById("number2");
@@ -30,7 +33,6 @@ function onOperationButtonClick(eventObject) {
     var operation = clickedElement.innerHTML;
     makeOperation(operation);
 }
-var operationButtons = [buttonPlus, buttonMunus, buttonMultiply, buttonDevide];
 
 for (var i = 0; i < operationButtons.length; i++) {
     var button = operationButtons[i];
