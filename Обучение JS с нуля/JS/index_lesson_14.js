@@ -1,6 +1,6 @@
 function addErrorClass(elementId) {
     let element = document.getElementById(elementId);
-    element.className = 'error-input';
+    element.className = 'default_input';
 }
 
 function addErrorClassToAllInputs() {
@@ -10,4 +10,4 @@ function addErrorClassToAllInputs() {
 }
 
 //addErrorClass('last-name');
-addErrorClassToAllInputs();
+window.setTimeout(addErrorClassToAllInputs, 2000);
