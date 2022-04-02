@@ -30,8 +30,10 @@ function onOperationButtonClick(eventObject) {
     var operation = clickedElement.innerHTML;
     makeOperation(operation);
 }
-buttonPlus.addEventListener('click', onOperationButtonClick);
-buttonMunus.addEventListener('click', onOperationButtonClick);
-buttonMultiply.addEventListener('click', onOperationButtonClick);
-buttonDevide.addEventListener('click', onOperationButtonClick);
+var operationButtons = [buttonPlus, buttonMunus, buttonMultiply, buttonDevide];
 
+for (var i = 0; i < operationButtons.length; i++) {
+    var button = operationButtons[i];
+    operationButtons[i].addEventListener('click', onOperationButtonClick);
+    };
+    
