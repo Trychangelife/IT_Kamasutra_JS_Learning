@@ -10,3 +10,9 @@ function hero(bullets, dragons){
       }
     }
     
+
+    // Адекватное решение с CW 
+    // function hero(bullets, dragons){
+    //     //Get Coding!
+    //     return (bullets / 2 >= dragons) ? true : false;
+    //     }
