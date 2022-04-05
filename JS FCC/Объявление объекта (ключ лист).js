@@ -78,3 +78,38 @@ const myDog = {
   
   delete myDog.tails;
   
+
+
+  function checkObj(obj, checkProp) {
+    // Only change code below this line
+    return obj.hasOwnProperty(checkProp) == true ? obj[checkProp] : 'Not Found' ;
+    // Only change code above this line
+  }
+
+
+  const myMusic = [
+    {
+      "artist": "Billy Joel",
+      "title": "Piano Man",
+      "release_year": 1973,
+      "formats": [
+        "CD",
+        "8T",
+        "LP"
+      ],
+      "gold": true
+    },
+    {
+      "artist": "Joel",
+      "title": "Man",
+      "release_year": 1955,
+      "formats": [
+        "CD",
+        "8T",
+        "LP"]
+    }
+  ];
+
+
+
+  
