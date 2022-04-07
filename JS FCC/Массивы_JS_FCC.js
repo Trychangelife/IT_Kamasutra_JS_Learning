@@ -100,3 +100,11 @@ function sum(arr, n) {
     return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
     // Only change code above this line
   }
+
+
+  function convertToInteger(str) {
+    let some = parseInt(str);
+    return some;
+}
+
+convertToInteger("56");
