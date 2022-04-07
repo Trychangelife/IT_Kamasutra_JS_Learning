@@ -47,3 +47,14 @@ for (let i = 0; i < 10; i++) {
 
 console.log(total);
 // Only change code below this line
+
+
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+ do {
+  myArray.push(i);
+  i++;
+} while (i < 11)
