@@ -8,7 +8,6 @@ app.get('/', function (req, res){
 
     if (req.url === '/1') {
         res.write('students')
-        res.end()
     }
     else {
         res.write("404 NOT FOUND" + count)
