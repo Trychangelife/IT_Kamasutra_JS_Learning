@@ -3,9 +3,7 @@ var http = require('http').Server(app);
 let count = 0
 
 app.get('/', function (req, res){
-
     count++
-
     if (req.url === '/1') {
         res.write('students')
     }

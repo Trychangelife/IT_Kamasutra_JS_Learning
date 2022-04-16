@@ -2,7 +2,9 @@
   "name": "webstorm",
   "version": "1.0.0",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "finalhandler": "^1.2.0",
+    "serve-favicon": "^2.5.0"
   },
   "scripts": {
     "start": "node server.js"
