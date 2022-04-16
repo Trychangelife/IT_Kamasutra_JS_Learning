@@ -1,3 +1,6 @@
+
+// Зафризили объект от изменения
+
 function freezeObj() {
     const MATH_CONSTANTS = {
       PI: 3.14
@@ -14,3 +17,16 @@ function freezeObj() {
     return MATH_CONSTANTS.PI;
   }
   const PI = freezeObj();
+
+
+
+
+
+
+
+
+  // Стрелочная функция
+
+  const magic = () => {
+    return new Date();
+  };
