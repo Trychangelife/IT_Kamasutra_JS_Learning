@@ -18,13 +18,6 @@ function freezeObj() {
   }
   const PI = freezeObj();
 
-
-
-
-
-
-
-
   // Стрелочная функция
 
   const magic = () => {
@@ -51,3 +44,14 @@ const increment = (number, value = 1) => number + value;
 const sum = (...args) => {
   return args.reduce((a, b) => a + b, 0);
 }
+
+
+// Сразу несколько переменных создаем из объекта.
+
+const HIGH_TEMPERATURES = {
+    yesterday: 75,
+    today: 77,
+    tomorrow: 80
+};
+
+const {today, tomorrow} = HIGH_TEMPERATURES;
